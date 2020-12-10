@@ -1,13 +1,12 @@
 package MyCalculator.MyCalculator;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class testMycalculator {
+class testMycalculatorTest {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -18,11 +17,11 @@ class testMycalculator {
 	}
 
 	@Test
-	void getFormattedText() {
-		MyCalculator test=new MyCalculator("teste");
-		String output=test.getFormattedText(1234);
-		assertEquals("1234", output);
-	
+	void isInString() {
+		MyCalculator cal=new MyCalculator("teste");
+		MyDigitButton test=new MyDigitButton(7, 8, 9, 4, "2",cal );
+		boolean output=test.isInString("Test",'t');
+		assertTrue(output);
 	}
 
 }
