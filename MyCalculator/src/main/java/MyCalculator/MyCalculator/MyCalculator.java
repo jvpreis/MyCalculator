@@ -17,7 +17,7 @@ public class MyCalculator extends Frame {
 
 	private static final long serialVersionUID = 1L;
 
-	public boolean setClear =true;
+	public boolean setClear = true;
 	double number, memValue;
 	char op;
 
