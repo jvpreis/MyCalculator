@@ -44,7 +44,7 @@ public class MyCalculator extends Frame {
 		new MyCalculator("Calculator - JavaTpoint");
 	}
 
-	/*** constructor **************************************/
+	/*** constructor ****************************************/
 	MyCalculator(String frameText) {
 		super(frameText);
 
