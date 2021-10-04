@@ -9,7 +9,7 @@ to use the calcuator do this
 
 Source of code: https://www.javatpoint.com/calculator-in-java
 
-**********************************************/  
+*************************************************/  
 import java.awt.*;  
 import java.awt.event.*;
 
