@@ -31,7 +31,7 @@ public class MyCalculator extends Frame {
 	MyMemoryButton memoryButton[] = new MyMemoryButton[memoryButtonText.length];
 	MySpecialButton specialButton[] = new MySpecialButton[specialButtonText.length];
 
-	Label displayLabel = new Label("0", Label.RIGHT);
+	Label displayLabel = new Label("0",Label.RIGHT);
 	Label memLabel = new Label(" ", Label.RIGHT);
 
 	final int FRAME_WIDTH = 325, FRAME_HEIGHT = 325;
